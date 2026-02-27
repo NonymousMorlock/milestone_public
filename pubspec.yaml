@@ -1,0 +1,107 @@
+name: milestone
+description: A way to track milestone for freelance gigs and the payments made, and also be able to access payment history and total money made so far
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  bloc: ^9.2.0 
+  boxy: ^2.2.2
+  cloud_firestore: ^6.1.2
+  collection: ^1.19.1
+  dartz: ^0.10.1
+  device_preview: ^1.3.1
+  equatable: ^2.0.8
+  firebase_storage: ^13.0.6
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.4
+  firebase_ui_auth: ^3.0.1
+  firebase_ui_firestore: ^2.0.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_bootstrap5: ^1.1.1+1
+  flutter_localizations:
+    sdk: flutter
+  flutter_multi_formatter: ^2.13.10
+  flutter_native_splash: ^2.4.7
+  flutter_web_plugins:
+    sdk: flutter
+  fluttertoast: ^9.0.0
+  gap: ^3.0.1
+  get_it: ^9.2.1
+  go_router: ^17.1.0
+  google_fonts: ^8.0.2
+  http: ^1.6.0
+  image_picker: ^1.2.1
+  intl: ^0.20.2
+  lottie: ^3.3.2
+  provider: ^6.1.5
+  shared_preferences: ^2.5.4
+  shimmer: ^3.0.0
+  url_launcher: ^6.3.2
+  uuid: ^4.5.3
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  fake_cloud_firestore: ^4.0.1
+  firebase_auth_mocks: ^0.15.1
+  firebase_storage_mocks: ^0.8.0+1
+  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+  google_sign_in_mocks: ^0.4.1
+  mocktail: ^1.0.4
+  very_good_analysis: ^10.2.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/milestone.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/milestone.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/milestone.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/milestone.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/lottie/flag1.gif
+  branding: assets/milestone.png
+  image_dark: assets/lottie/flag1.gif
+  branding_mode: bottom
+  color_dark: "#191821"
+
+  android_12:
+    image: assets/lottie/flag1.gif
+    color: "#ffffff"
+    image_dark: assets/lottie/flag1.gif
+    branding: assets/milestone.png
+    color_dark: "#191821"
+  android_screen_orientation: sensorPortrait
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+
+  fonts:
+    - family: SocialIcons
+      fonts:
+        - asset: packages/firebase_ui_auth/fonts/SocialIcons.ttf

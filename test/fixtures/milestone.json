@@ -1,0 +1,13 @@
+{
+  "id": "Test String",
+  "projectId": "Test String",
+  "title": "Test String",
+  "shortDescription": "Test String",
+  "index": -1,
+  "notes": [],
+  "amountPaid": 1,
+  "dateCreated": {
+    "_seconds": 1677483548,
+    "_nanoseconds": 123456000
+  }
+}

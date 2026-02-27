@@ -1,0 +1,24 @@
+{
+  "id": "Test String",
+  "userId": "Test String",
+  "projectName": "Test String",
+  "clientName": "Test String",
+  "shortDescription": "Test String",
+  "longDescription": "Test String",
+  "notes": [],
+  "urls": [],
+  "budget": 1,
+  "isFixed": true,
+  "isOneTime": true,
+  "projectType": "Test String",
+  "tools": [],
+  "totalPaid": 1,
+  "numberOfMilestonesSoFar": 1,
+  "image": null,
+  "images": [],
+  "clientId": "Test String",
+  "startDate": {
+    "_seconds": 1677483548,
+    "_nanoseconds": 123456000
+  }
+}
