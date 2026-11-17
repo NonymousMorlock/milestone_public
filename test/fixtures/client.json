@@ -1,0 +1,10 @@
+{
+  "id": "Test String",
+  "name": "Test String",
+  "totalSpent": 1.0,
+  "image": "Test String",
+  "dateCreated": {
+    "_seconds": 1677483548,
+    "_nanoseconds": 123456000
+  }
+}
